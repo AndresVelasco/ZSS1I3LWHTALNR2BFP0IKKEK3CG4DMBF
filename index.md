@@ -1,4 +1,3 @@
-# Introducción
 # Estadística Descriptiva
 ## Medidas de Tendencia Central
 
