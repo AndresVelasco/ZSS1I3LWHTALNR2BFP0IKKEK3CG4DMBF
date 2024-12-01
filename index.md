@@ -73,3 +73,13 @@ https://github.com/AndresVelasco/ZSS1I3LWHTALNR2BFP0IKKEK3CG4DMBF/blob/main/03.p
 
 # Teorema del Límite Central
 
+## Teorema del Límite Central
+
+(python) Ilustración del teorema del límite central: estimación de la media mediante muestras con datos simulados:
+https://github.com/AndresVelasco/ZSS1I3LWHTALNR2BFP0IKKEK3CG4DMBF/blob/main/04.teorema_limite_central/clt_simulation.py
+
+## Muestras de Datos
+
+## Intervalos de Confianza
+
+(python) Ilustración del concepto de intervalo de confianza mediante la simulación de la estimación de la media de la población con diferentes muestras:
