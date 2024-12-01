@@ -83,3 +83,11 @@ https://github.com/AndresVelasco/ZSS1I3LWHTALNR2BFP0IKKEK3CG4DMBF/blob/main/04.t
 ## Intervalos de Confianza
 
 (python) Ilustración del concepto de intervalo de confianza mediante la simulación de la estimación de la media de la población con diferentes muestras:
+https://github.com/AndresVelasco/ZSS1I3LWHTALNR2BFP0IKKEK3CG4DMBF/blob/main/04.teorema_limite_central/confidence_interval_simulation.py
+
+(python) Ejemplo de intervalos de confianza, graficado del ancho del intervalo de confianza en función del número de muestras y nivel de confianza:
+https://github.com/AndresVelasco/ZSS1I3LWHTALNR2BFP0IKKEK3CG4DMBF/blob/main/04.teorema_limite_central/confidence_interval_example.py
+
+# Inferencia
+
+
