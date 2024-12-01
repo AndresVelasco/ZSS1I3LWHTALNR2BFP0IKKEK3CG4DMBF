@@ -3,8 +3,6 @@ import scipy.stats as stats
 import matplotlib.pyplot as plt
 
 # Datos
-#gasto_antes = np.array([120, 130, 150, 140, 135, 125, 160, 145, 155, 150])
-#gasto_despues = np.array([125, 135, 155, 145, 140, 130, 165, 150, 160, 155])
 gasto_antes = np.array([120, 130, 150, 140, 135, 125, 160, 145, 155, 150])
 gasto_despues = np.array([124, 130, 150, 142, 137, 130, 158, 150, 160, 150])
 
