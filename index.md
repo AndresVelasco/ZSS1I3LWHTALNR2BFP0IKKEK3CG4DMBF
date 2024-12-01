@@ -90,4 +90,14 @@ https://github.com/AndresVelasco/ZSS1I3LWHTALNR2BFP0IKKEK3CG4DMBF/blob/main/04.t
 
 # Inferencia
 
+## Test-Z de Significancia
 
+(python) Ejemplo de test-z
+https://github.com/AndresVelasco/ZSS1I3LWHTALNR2BFP0IKKEK3CG4DMBF/blob/main/05.inferencia/ztest.py
+
+## A/B Tests
+
+(python) Ejemplo de test-z con 2 muestras:
+https://github.com/AndresVelasco/ZSS1I3LWHTALNR2BFP0IKKEK3CG4DMBF/blob/main/05.inferencia/ztest_ab.py
+
+## 
