@@ -127,3 +127,22 @@ https://github.com/AndresVelasco/ZSS1I3LWHTALNR2BFP0IKKEK3CG4DMBF/blob/main/06.d
 https://github.com/AndresVelasco/ZSS1I3LWHTALNR2BFP0IKKEK3CG4DMBF/blob/main/06.datos_categoricos/chisquared_homegeneity.py
 
 # Pruebas Chi-Squared (independence)
+
+# Regression
+
+## Introducción
+
+(python) Ilustración de la regresión, datos simulados:
+https://github.com/AndresVelasco/ZSS1I3LWHTALNR2BFP0IKKEK3CG4DMBF/blob/main/07.regresion/intro.py
+
+## Correlación
+
+(python) Ilustración del concepto de correlación entre variables, datos simulados:
+https://github.com/AndresVelasco/ZSS1I3LWHTALNR2BFP0IKKEK3CG4DMBF/blob/main/07.regresion/correlation.py
+
+## Regresión Lineal Simple
+
+## Valores Residuales
+
+(python) Ilustración del concepto de valores residuales, datos simulados:
+https://github.com/AndresVelasco/ZSS1I3LWHTALNR2BFP0IKKEK3CG4DMBF/blob/main/07.regresion/residuals.py
