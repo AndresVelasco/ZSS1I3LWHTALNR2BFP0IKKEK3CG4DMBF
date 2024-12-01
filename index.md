@@ -100,4 +100,28 @@ https://github.com/AndresVelasco/ZSS1I3LWHTALNR2BFP0IKKEK3CG4DMBF/blob/main/05.i
 (python) Ejemplo de test-z con 2 muestras:
 https://github.com/AndresVelasco/ZSS1I3LWHTALNR2BFP0IKKEK3CG4DMBF/blob/main/05.inferencia/ztest_ab.py
 
-## 
+## Paired Tests
+
+## Distribución-T (de Student)
+
+(python) Ilustración de la distribución t con datos simulados:
+https://github.com/AndresVelasco/ZSS1I3LWHTALNR2BFP0IKKEK3CG4DMBF/blob/main/05.inferencia/tdistribution.py
+
+## ANOVA
+
+(python) Ejemplo de ANOVA con 3 muestras de datos simulados:
+https://github.com/AndresVelasco/ZSS1I3LWHTALNR2BFP0IKKEK3CG4DMBF/blob/main/05.inferencia/anova_example.py
+
+# Datos Categóricos
+
+## Pruebas Chi-Squared (goodness-of-fit)
+
+(python) DEsarrollo en python del ejemplo de chi-squared/goodness-of-fit
+https://github.com/AndresVelasco/ZSS1I3LWHTALNR2BFP0IKKEK3CG4DMBF/blob/main/06.datos_categoricos/chisquared_fit.py
+
+## Tipos de Pruebas Chi-Squared
+
+##  Pruebas Chi-Squared (homogeneity)
+
+(python) Desarrollo en python del ejemplo de chi-squared/homegeneity:
+https://github.com/AndresVelasco/ZSS1I3LWHTALNR2BFP0IKKEK3CG4DMBF/blob/main/06.datos_categoricos/chisquared_homegeneity.py
