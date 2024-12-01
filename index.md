@@ -44,3 +44,32 @@ https://github.com/AndresVelasco/ZSS1I3LWHTALNR2BFP0IKKEK3CG4DMBF/blob/main/02.d
 
 (python) Ilustración de la estandarización en un histograma no normal:
 https://github.com/AndresVelasco/ZSS1I3LWHTALNR2BFP0IKKEK3CG4DMBF/blob/main/02.descriptiva/estandarizacion_no_normal.py
+
+# Probabilidad
+
+## Reglas Básicas de la Probabilidad
+
+## Regla de la Suma General
+
+## Probabilidad Condicional
+
+## Teorema de Bayes
+
+## Experimentos Binomiales
+
+(python) Ilustración de la Distribución Binomial, datos simulados:
+https://github.com/AndresVelasco/ZSS1I3LWHTALNR2BFP0IKKEK3CG4DMBF/blob/main/03.probabilidad/experimento_binomial.py
+
+(python) Ilustración de la Aproximación Normal de la Distribución Binomial, datos simulados:
+https://github.com/AndresVelasco/ZSS1I3LWHTALNR2BFP0IKKEK3CG4DMBF/blob/main/03.probabilidad/distribucion_binomial_normal.py
+
+## Función Densidad de Probabilidad
+
+(python) Ilustración de la función de densidad de probabilidad, datos simulados:
+https://github.com/AndresVelasco/ZSS1I3LWHTALNR2BFP0IKKEK3CG4DMBF/blob/main/03.probabilidad/ejemplos_pdf.py
+
+(python) Ilustración del calculo de probabilidad acumulada y de valores asociados (inversa) con `scipy.stats`:
+https://github.com/AndresVelasco/ZSS1I3LWHTALNR2BFP0IKKEK3CG4DMBF/blob/main/03.probabilidad/ejemplos_scipystats.py
+
+# Teorema del Límite Central
+
