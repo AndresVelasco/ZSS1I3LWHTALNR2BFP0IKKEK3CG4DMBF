@@ -125,8 +125,6 @@ https://github.com/AndresVelasco/ZSS1I3LWHTALNR2BFP0IKKEK3CG4DMBF/blob/main/06.d
 (python) Desarrollo en python del ejemplo de chi-squared/homegeneity:
 https://github.com/AndresVelasco/ZSS1I3LWHTALNR2BFP0IKKEK3CG4DMBF/blob/main/06.datos_categoricos/chisquared_homegeneity.py
 
-# Pruebas Chi-Squared (independence)
-
 # Regression
 
 ## Introducción
