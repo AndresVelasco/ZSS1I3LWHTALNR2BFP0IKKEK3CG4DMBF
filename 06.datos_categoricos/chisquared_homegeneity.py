@@ -5,8 +5,6 @@ from scipy.stats import chi2
 # Data: Visitors and Conversions by Traffic Source
 traffic_sources = ["Organic", "Paid Ads", "Social Media"]
 visitors = np.array([1000, 1200, 800])
-conversions = np.array([120, 150, 90])
-visitors = np.array([1000, 1200, 800])
 conversions = np.array([120, 140, 60])
 
 # Total visitors and conversions
