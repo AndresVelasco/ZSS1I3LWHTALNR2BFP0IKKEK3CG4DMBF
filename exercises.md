@@ -1,7 +1,7 @@
 # Estadistica Descriptiva
 
 ### 1
-**Qué require en general dde más recursos para su cálculo, la media o la mediana?**
+**Qué require en general de más recursos para su cálculo, la media o la mediana?**
 
 ### 2
 **Supongamos que todos los precios de los productos en un e-commerce aumentan en un 5%. ¿Cómo afecta esto al precio medio de los productos?**
