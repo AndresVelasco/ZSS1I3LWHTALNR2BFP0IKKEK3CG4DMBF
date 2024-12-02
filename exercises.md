@@ -142,9 +142,10 @@ Para calificar para un determinado trabajo, una candidata necesita estar en el 2
 **A partir del ejercicio 8, qué tamaño de muestra necesitamos para reducir a la mitad la amplitud del intervalo de confianza?**
 
 ### 10
-**A partir del ejercicio 8, qué **
+**A partir del ejercicio 8, sin cambiar el tamaño de muestra y si se desea reducir la amplitud del intervalo de confianza en un 20%, cual es el nuevo nivel de confianza**
 
 # Inferencia
+
 
 # Datos Categóricos
 
