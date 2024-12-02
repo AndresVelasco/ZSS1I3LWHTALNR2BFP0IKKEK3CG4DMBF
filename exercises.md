@@ -107,6 +107,43 @@ c) $9.5
 
 # Teorema del Limite Central
 
+### 1
+**Se lanza una moneda justa 400 veces. ¿Cuáles son aproximadamente las probabilidades de obtener más de 210 caras?**
+**(Utiliza la regla empírica y la aproximación normal a la distribución binomial)**
+
+### 2
+**"Un grupo grande de personas se reúne y cada persona lanza una moneda 100 veces. ¿Qué porcentaje aproximado de personas obtendrá entre 40 y 60 cruces?"**
+**(Utiliza la regla empírica)**
+
+### 3
+**Las puntuaciones de un determinado examen siguen una distribución normal con una media de 1350 y una desviación estándar de 120.
+Para calificar para un determinado trabajo, una candidata necesita estar en el 2.5% superior. ¿Qué puntuación aproximada necesita?**
+**(Utiliza la regla empírica)**
+
+### 4
+**En un e-commerce, el gasto promedio de un cliente en un día es de $50, con una desviación estándar de $20. Supongamos que seleccionas una muestra aleatoria de 100 clientes.
+¿Cuál es la probabilidad de que la media sea mayor a $52?**
+
+### 5
+**En un e-commerce, el tiempo promedio que los clientes pasan navegando en el sitio web es de 8 minutos con una desviación estándar de 2 minutos. Supongamos que seleccionamos una muestra aleatoria de 50 clientes.**
+**Utiliza python para calcular la probabilidad de que la media medida sobre la muestra sea mayor a 10 minutos**
+
+### 6
+**En un e-commerce, el tiempo promedio que los clientes pasan navegando en el sitio web es de 8 minutos con una desviación estándar de 2 minutos. Supongamos que seleccionamos una muestra aleatoria de 50 clientes.**
+**Utilizando Python, calcula el intervalo simétrico que contiene el 95% de las medias muestrales (usa la función PPF para encontrar los percentiles correspondientes)**
+
+### 8
+**Un e-commerce quiere estimar el gasto promedio de sus clientes por transacción. A partir de una muestra de 100 transacciones, se calcula:**
+**Gasto promedio: $55**
+**Desviación estándar: $10**
+**Construye un intervalo de confianza del 90% para el gasto promedio por transacción**
+
+### 9
+**A partir del ejercicio 8, qué tamaño de muestra necesitamos para reducir a la mitad la amplitud del intervalo de confianza?**
+
+### 10
+**A partir del ejercicio 8, qué **
+
 # Inferencia
 
 # Datos Categóricos
