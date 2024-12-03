@@ -169,6 +169,4 @@ Pregunta: ¿La proporción de clientes que utilizan cupones es significativament
 
 **Existe una relación estadisticamente significativa entre el canal de adquisición y la categoría de producto comprada?**
 
-Tip: 
-
 # Regresión
