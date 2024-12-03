@@ -157,14 +157,18 @@ Pregunta: ¿La proporción de clientes que utilizan cupones es significativament
 
 ### 1 
 
-**Una tienda en línea quiere analizar si las categorías de productos comprados están asociadas con la edad del cliente. Para ello, seleccionaron dos grupos de clientes según su edad y registraron la categoría de producto que compraron (Electrónica, Ropa, Hogar)**
+**Una tienda en línea quiere analizar si las categorías de productos comprados están asociadas con el canal de adquisición. Para ello recopilaron los siguientes datos**
 
-| **Grupo de edad**     | **Electrónica** | **Ropa** | **Hogar** | **Total** |
-|-----------------------|----------------|----------|-----------|-----------|
-| 18-29 años (Grupo A)  | 50             | 70       | 60        | 180       |
-| 30 años o más (Grupo B) | 40             | 50       | 130       | 220       |
+| **Origen del tráfico** | **Electrónica** | **Ropa** | **Hogar** | **Total** |
+|------------------------|----------------|----------|-----------|-----------|
+| Orgánico              | 30             | 50       | 40        | 120       |
+| Pago por clic         | 40             | 30       | 60        | 130       |
+| Redes Sociales        | 20             | 40       | 90        | 150       |
 | **Total**             | 90             | 120      | 190       | 400       |
 
-**Existe una relación estadisticamente significativa entre la edad y la categoría de producto comprada?**
+
+**Existe una relación estadisticamente significativa entre el canal de adquisición y la categoría de producto comprada?**
+
+Tip: 
 
 # Regresión
