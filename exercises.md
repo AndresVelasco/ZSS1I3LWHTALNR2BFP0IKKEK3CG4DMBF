@@ -148,17 +148,25 @@ Para calificar para un determinado trabajo, una candidata necesita estar en el 2
 
 ### 1
 
-**Una tienda equiere analizar si hay diferencias significativas en el uso de cupones de descuento entre clientes jóvenes y adultos. Para ello, se realizó un A/B test segmentando a los clientes en dos grupos:
-Grupo A (18-29 años): Se seleccionaron aleatoriamente 184 clientes. El 26.1% utilizó un cupón de descuento en su última compra.
-Grupo B (30 años o más): Se seleccionaron aleatoriamente 811 clientes. El 39.2% utilizó un cupón de descuento en su última compra.
-Pregunta: ¿La proporción de clientes que utilizan cupones es significativamente diferente entre ambos grupos?**
+**Una tienda en línea quiere analizar si un nuevo proceso de checkout aumenta el uso de cupones de descuento. Para ello, realizó un test A/B donde los clientes fueron asignados aleatoriamente a dos grupos:**
+- Grupo A (checkout tradicional): 500 clientes.
+  - 130 de ellos usaron un cupón de descuento
+- Grupo B (nuevo checkout): 500 clientes.
+  - 175 de ellos usaron un cupón de descuento
+**Tiene el nuevo proceso de checkout un impacto significativo en el uso de cupones? Porqué?**
+
+### 2
+
+**Una tienda en línea con clientes recurrentes ha implementado un nuevo diseño en su página de producto. El objetivo es analizar si el nuevo diseño incrementa significativamente el tiempo promedio que los usuarios pasan en la página.**
+**Para ello cuentas con el siguiente CSV que contiene los datos de tiempo en página de cada cliente, antes y después:**
+
+[CSV](data/paired_test_ecommerce_large.csv)
 
 # Datos Categóricos
 
 ### 1 
 
 **Una tienda en línea quiere analizar si las categorías de productos comprados están asociadas con el canal de adquisición. Para ello recopilaron los siguientes datos**
-
 | **Origen del tráfico** | **Electrónica** | **Ropa** | **Hogar** | **Total** |
 |------------------------|----------------|----------|-----------|-----------|
 | Orgánico              | 30             | 50       | 40        | 120       |
@@ -166,7 +174,6 @@ Pregunta: ¿La proporción de clientes que utilizan cupones es significativament
 | Redes Sociales        | 20             | 40       | 90        | 150       |
 | **Total**             | 90             | 120      | 190       | 400       |
 
-
 **Existe una relación estadisticamente significativa entre el canal de adquisición y la categoría de producto comprada?**
 
-# Regresión
+Tip: utilizar https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.chi2_contingency.html
