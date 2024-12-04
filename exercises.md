@@ -153,6 +153,7 @@ Para calificar para un determinado trabajo, una candidata necesita estar en el 2
   - 130 de ellos usaron un cupón de descuento
 - Grupo B (nuevo checkout): 500 clientes.
   - 175 de ellos usaron un cupón de descuento
+    
 **Tiene el nuevo proceso de checkout un impacto significativo en el uso de cupones? Porqué?**
 
 ### 2
@@ -176,4 +177,4 @@ Para calificar para un determinado trabajo, una candidata necesita estar en el 2
 
 **Existe una relación estadisticamente significativa entre el canal de adquisición y la categoría de producto comprada?**
 
-Tip: utilizar https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.chi2_contingency.html
+Tip: identifica el tipo de test chi-squared que aplica en el caso de 2 variables. Puedes utilizar la función [scipy.stats.chi2_contingency](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.chi2_contingency.html)
