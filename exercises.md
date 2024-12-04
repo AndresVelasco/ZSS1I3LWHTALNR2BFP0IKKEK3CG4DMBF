@@ -181,5 +181,7 @@ Tip: aplicar un z-test de dos muestras pareadas (z-test). Obviar cualquier consi
 
 **Existe una relación estadisticamente significativa entre el canal de adquisición y la categoría de producto comprada?**
 
-Tip: identifica primeramente el tipo de test chi-squared que aplica en el caso de 2 variables. 
-Tip: puedes optar por calcular el valor de chi-cuadrado "a mano" o utilizar la función [scipy.stats.chi2_contingency](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.chi2_contingency.html)
+Tips:
+
+- identifica primeramente el tipo de test chi-squared que aplica en el caso de 2 variables
+- puedes optar por calcular el valor de chi-cuadrado "a mano" o utilizar la función [scipy.stats.chi2_contingency](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.chi2_contingency.html)
