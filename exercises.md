@@ -154,14 +154,18 @@ Para calificar para un determinado trabajo, una candidata necesita estar en el 2
 - Grupo B (nuevo checkout): 500 clientes.
   - 175 de ellos usaron un cupón de descuento
     
-**Tiene el nuevo proceso de checkout un impacto significativo en el uso de cupones? Porqué?**
+**¿Tiene el nuevo proceso de checkout un impacto significativo en el uso de cupones? Porqué?**
+
+Tip: aplicar un z-test de dos muestras
 
 ### 2
 
 **Una tienda en línea con clientes recurrentes ha implementado un nuevo diseño en su página de producto. El objetivo es analizar si el nuevo diseño incrementa significativamente el tiempo promedio que los usuarios pasan en la página.**
 **Para ello cuentas con el siguiente CSV que contiene los datos de tiempo en página de cada cliente, antes y después:**
 
-[CSV](data/paired_test_ecommerce_large.csv)
+[CSV](data/paired_test_ecommerce_large.csv
+
+Tip: aplicar un z-test de dos muestras pareadas (z-test). Obviar cualquier consideración relativa al tamaño de la muestra (aplicar z-test en cualquier caso por simplicidad)
 
 # Datos Categóricos
 
@@ -177,4 +181,5 @@ Para calificar para un determinado trabajo, una candidata necesita estar en el 2
 
 **Existe una relación estadisticamente significativa entre el canal de adquisición y la categoría de producto comprada?**
 
-Tip: identifica el tipo de test chi-squared que aplica en el caso de 2 variables. Puedes utilizar la función [scipy.stats.chi2_contingency](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.chi2_contingency.html)
+Tip: identifica primeramente el tipo de test chi-squared que aplica en el caso de 2 variables. 
+Tip: puedes optar por calcular el valor de chi-cuadrado "a mano" o utilizar la función [scipy.stats.chi2_contingency](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.chi2_contingency.html)
