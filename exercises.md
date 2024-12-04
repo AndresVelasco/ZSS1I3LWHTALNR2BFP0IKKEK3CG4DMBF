@@ -156,16 +156,18 @@ Para calificar para un determinado trabajo, una candidata necesita estar en el 2
     
 **¿Tiene el nuevo proceso de checkout un impacto significativo en el uso de cupones? Porqué?**
 
-Tip: aplicar un z-test de dos muestras
+Tip: aplicar un z-test de dos muestras (A/B Test)
 
 ### 2
 
 **Una tienda en línea con clientes recurrentes ha implementado un nuevo diseño en su página de producto. El objetivo es analizar si el nuevo diseño incrementa significativamente el tiempo promedio que los usuarios pasan en la página.**
 **Para ello cuentas con el siguiente CSV que contiene los datos de tiempo en página de cada cliente, antes y después:**
 
-[CSV](data/paired_test_ecommerce_large.csv
+Los datos se encuentran adjuntos:
 
-Tip: aplicar un z-test de dos muestras pareadas (z-test). Obviar cualquier consideración relativa al tamaño de la muestra (aplicar z-test en cualquier caso por simplicidad)
+[CSV](data/paired_test_ecommerce_large.csv)
+
+Tip: aplicar un z-test para dos muestras pareadas (paired z-test). Obviar cualquier consideración relativa al tamaño de la muestra (aplicar z-test en cualquier caso por simplicidad)
 
 # Datos Categóricos
 
@@ -183,5 +185,5 @@ Tip: aplicar un z-test de dos muestras pareadas (z-test). Obviar cualquier consi
 
 Tips:
 
-- identifica primeramente el tipo de test chi-squared que aplica en el caso de 2 variables
-- puedes optar por calcular el valor de chi-cuadrado "a mano" o utilizar la función [scipy.stats.chi2_contingency](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.chi2_contingency.html)
+- identifica previamente el tipo de test chi-squared que debe aplicar (hay 2 variables)
+- puedes optar por calcular el valor de chi-cuadrado "a mano" y calcular el p-value a partir de ello o utilizar la función [scipy.stats.chi2_contingency](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.chi2_contingency.html)
