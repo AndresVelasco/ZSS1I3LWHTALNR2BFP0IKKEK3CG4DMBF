@@ -108,7 +108,7 @@ c) $9.5
 # Teorema del Limite Central
 
 ### 1
-**Se lanza una moneda justa 400 veces. ¿Cuáles son aproximadamente las probabilidades de obtener más de 210 caras?**
+**Se lanza una moneda 400 veces. ¿Cuáles son aproximadamente las probabilidades de obtener más de 210 caras?**
 **(Utiliza la regla empírica y la aproximación normal a la distribución binomial)**
 
 ### 2
