@@ -112,7 +112,7 @@ c) $9.5
 **(Utiliza la regla empírica y la aproximación normal a la distribución binomial)**
 
 ### 2
-**"Un grupo grande de personas se reúne y cada persona lanza una moneda 100 veces. ¿Qué porcentaje aproximado de personas obtendrá entre 40 y 60 cruces?"**
+**Un grupo grande de personas se reúne y cada persona lanza una moneda 100 veces. ¿Qué porcentaje aproximado de personas obtendrá entre 40 y 60 cruces?**
 **(Utiliza la regla empírica)**
 
 ### 3
