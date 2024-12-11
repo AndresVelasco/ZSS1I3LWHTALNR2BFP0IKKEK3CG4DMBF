@@ -129,16 +129,16 @@ Para calificar para un determinado trabajo, una candidata necesita estar en el 2
 **En un e-commerce, el tiempo promedio que los clientes pasan navegando en el sitio web es de 8 minutos con una desviación estándar de 2 minutos. Supongamos que seleccionamos una muestra aleatoria de 50 clientes.**
 **Utilizando Python, calcula el intervalo simétrico que contiene el 95% de las medias muestrales (usa la función PPF para encontrar los percentiles correspondientes)**
 
-### 8
+### 7
 **Un e-commerce quiere estimar el gasto promedio de sus clientes por transacción. A partir de una muestra de 100 transacciones, se calcula:**
 **Gasto promedio: $55**
 **Desviación estándar: $10**
 **Construye un intervalo de confianza del 90% para el gasto promedio por transacción**
 
-### 9
+### 8
 **A partir del ejercicio 8, qué tamaño de muestra necesitamos para reducir a la mitad la amplitud del intervalo de confianza?**
 
-### 10
+### 9
 **A partir del ejercicio 8, sin cambiar el tamaño de muestra y si se desea reducir la amplitud del intervalo de confianza en un 20%, cual es el nuevo nivel de confianza**
 
 # Inferencia
