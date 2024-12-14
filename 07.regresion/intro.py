@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+from scipy.stats import linregress
 
 # Fijar la semilla para reproducibilidad
 np.random.seed(42)
@@ -24,7 +25,9 @@ mean_sales_revenue = df['Sales Revenue (k$)'].mean()
 # 1. Calcular los coeficientes de regresión (a = pendiente, b = intercepto)
 X = df['Advertising Spend (k$)']
 Y = df['Sales Revenue (k$)']
-a, b = np.polyfit(X, Y, 1)
+
+#b, a = np.polyfit(X, Y, 1)
+b, a, r_value, p_value, std_err = linregress(X, Y)
 
 # 2. Calcular el coeficiente de correlación de Pearson
 pearson_corr = np.corrcoef(X, Y)[0, 1]
@@ -34,7 +37,7 @@ std_ad_spend = X.std()
 std_sales_revenue = Y.std()
 
 # Imprimir los valores calculados
-print(f"Coeficientes de Regresión: a (pendiente) = {a:.4f}, b (intercepto) = {b:.4f}")
+print(f"Coeficientes de Regresión: b (pendiente) = {a:.4f}, a (intercepto) = {b:.4f}")
 print(f"Coeficiente de Correlación de Pearson: {pearson_corr:.4f}")
 print(f"Desviación Estándar del Gasto en Publicidad: {std_ad_spend:.4f}")
 print(f"Desviación Estándar de los Ingresos por Ventas: {std_sales_revenue:.4f}")
@@ -68,7 +71,7 @@ ax[2].set_title('Dispersión Gasto en Publicidad vs. Ingresos por Ventas')
 ax[2].set_xlabel('Gasto en Publicidad (k$)')
 ax[2].set_ylabel('Ingresos por Ventas (k$)')
 # Línea de regresión
-ax[2].plot(df['Advertising Spend (k$)'], a * df['Advertising Spend (k$)'] + b, color='red', linestyle='--')
+ax[2].plot(df['Advertising Spend (k$)'], b * df['Advertising Spend (k$)'] + a, color='red', linestyle='--')
 # Línea de la media del Gasto en Publicidad
 ax[2].axvline(mean_ad_spend, color='green', linestyle='--', linewidth=1.5, label=f'Media Gasto: {mean_ad_spend:.2f}')
 # Línea de la media de Ingresos por Ventas
