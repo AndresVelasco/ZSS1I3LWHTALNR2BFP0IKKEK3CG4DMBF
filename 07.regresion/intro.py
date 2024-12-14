@@ -27,10 +27,7 @@ X = df['Advertising Spend (k$)']
 Y = df['Sales Revenue (k$)']
 
 #b, a = np.polyfit(X, Y, 1)
-b, a, r_value, p_value, std_err = linregress(X, Y)
-
-# 2. Calcular el coeficiente de correlación de Pearson
-pearson_corr = np.corrcoef(X, Y)[0, 1]
+b, a, pearson_corr, p_value, std_err = linregress(X, Y)
 
 # 3. Calcular las desviaciones estándar de X y Y
 std_ad_spend = X.std()
