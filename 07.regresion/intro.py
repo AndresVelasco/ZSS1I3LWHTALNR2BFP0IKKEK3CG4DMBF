@@ -26,20 +26,30 @@ mean_sales_revenue = df['Sales Revenue (k$)'].mean()
 X = df['Advertising Spend (k$)']
 Y = df['Sales Revenue (k$)']
 
-#b, a = np.polyfit(X, Y, 1)
-b, a, pearson_corr, p_value, std_err = linregress(X, Y)
+#b1, b0 = np.polyfit(X, Y, 1)
+b1, b0, r_value, p_value, std_err = linregress(X, Y)
+Y_pred = b1 * df['Advertising Spend (k$)'] + b0
+
+# Cálculos
+Y_mean = np.mean(Y)
+SS_Res = np.sum((Y - Y_pred)**2)  # Suma de cuadrados residuales
+SS_Tot = np.sum((Y - Y_mean)**2)  # Suma de cuadrados totales
+MSE = np.mean((Y - Y_pred)**2)    # MSE
+R2 = 1 - SS_Res/SS_Tot
 
 # 3. Calcular las desviaciones estándar de X y Y
 std_ad_spend = X.std()
 std_sales_revenue = Y.std()
 
 # Imprimir los valores calculados
-print(f"Coeficientes de Regresión: b (pendiente) = {a:.4f}, a (intercepto) = {b:.4f}")
-print(f"Coeficiente de Correlación de Pearson: {pearson_corr:.4f}")
+print(f"Coeficientes de Regresión: b (pendiente) = {b0:.4f}, a (intercepto) = {b1:.4f}")
+print(f"Coeficiente de Correlación de Pearson: {r_value:.4f}")
 print(f"Desviación Estándar del Gasto en Publicidad: {std_ad_spend:.4f}")
 print(f"Desviación Estándar de los Ingresos por Ventas: {std_sales_revenue:.4f}")
 print(f"Media del Gasto en Publicidad: {mean_ad_spend:.4f}")
 print(f"Media de los Ingresos por Ventas: {mean_sales_revenue:.4f}")
+print(f"Error cuadrático medio (MSE): {MSE:.4f}")
+print(f"Coeficiente de Determinación (R^2): {R2:.4f}")
 
 # Configurar la figura y los ejes para los histogramas y el gráfico de dispersión
 fig, ax = plt.subplots(1, 3, figsize=(18, 6))
@@ -68,7 +78,7 @@ ax[2].set_title('Dispersión Gasto en Publicidad vs. Ingresos por Ventas')
 ax[2].set_xlabel('Gasto en Publicidad (k$)')
 ax[2].set_ylabel('Ingresos por Ventas (k$)')
 # Línea de regresión
-ax[2].plot(df['Advertising Spend (k$)'], b * df['Advertising Spend (k$)'] + a, color='red', linestyle='--')
+ax[2].plot(df['Advertising Spend (k$)'], b1 * df['Advertising Spend (k$)'] + b0, color='red', linestyle='--')
 # Línea de la media del Gasto en Publicidad
 ax[2].axvline(mean_ad_spend, color='green', linestyle='--', linewidth=1.5, label=f'Media Gasto: {mean_ad_spend:.2f}')
 # Línea de la media de Ingresos por Ventas
