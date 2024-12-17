@@ -9,15 +9,6 @@ from google.cloud import bigquery
 # controlar si se utilizan datos random
 use_random_data = True
 
-# Comentado: Código para extraer datos de BigQuery (descomentar si se desea usar)
-# from google.cloud import bigquery
-# client = bigquery.Client()
-# query = """SELECT column_x AS X, column_y AS Y FROM `your_project.your_dataset.your_table`"""
-# query_job = client.query(query)
-# data = query_job.to_dataframe()
-# x = data['X']
-# y = data['Y']
-
 # Generar datos de prueba
 if use_random_data:
     np.random.seed(42)
